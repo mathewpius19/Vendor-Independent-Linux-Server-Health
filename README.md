@@ -14,9 +14,12 @@ notified of performance issues before end-users notice there is a problem. With 
 server monitoring software, you can:
 
 ● Identify and troubleshoot issues related to server hardware health
+
 ● Monitor the overall performance and availability of your remote servers
+
 ● Identify other performance issues related to response time, resource
 utilization, app downtime, etc.
+
 ● Remotely remediate performance issues, including rebooting servers,
 restarting websites, and more.
 
@@ -26,18 +29,24 @@ readable and understandable form.
 A few features the health monitor has are:
 
 ● Real-time data monitoring using WebSockets.
+
 ● Automated SSH into the user's remote server.
+
 ● Predictive analysis using Time Series prediction that predicts data after a
 specific time frame.
+
 ● Graphical representation of data for easy interpretation of data.
 
 These features are all independent for each remote server.
 
-Technology Stack used:
-Web Application development - Node.js, React.js, D3.js.
-Microservice                - python flask, websockets, automated SSH using ssh2 in Node.js.
-Databases                   - MongoDB for storing user data, SQLite for storing health monitoring data locally on each remote server
-LSTM model                  -  Developed using TensorFlow / Keras. Made use of the LSTM neural network layer, tf.optimizers.Adam() → Optimizer used to train the network 
+# Technology Stack used:
+● Web Application development - Node.js, React.js, D3.js.
+
+● Microservice                - python flask, websockets, automated SSH using ssh2 in Node.js.
+
+● Databases                   - MongoDB for storing user data, SQLite for storing health monitoring data locally on each remote server
+
+● LSTM model                  -  Developed using TensorFlow / Keras. Made use of the LSTM neural network layer, tf.optimizers.Adam() → Optimizer used to train the network 
 
 Please refer to the Health-Monitoring repository which contains the LSTM functionality and flask application details (https://github.com/mathewpius19/Health-Monitoring)
 <!--testing git workflow -->
