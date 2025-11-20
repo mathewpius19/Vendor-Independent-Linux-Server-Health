@@ -12,6 +12,7 @@ information about their remote servers and hence prevent any catastrophic failur
 The main benefit of monitoring your remote server environment is being proactively
 notified of performance issues before end-users notice there is a problem. With remote
 server monitoring software, you can:
+
 ● Identify and troubleshoot issues related to server hardware health
 ● Monitor the overall performance and availability of your remote servers
 ● Identify other performance issues related to response time, resource
@@ -23,11 +24,13 @@ restarting websites, and more.
 The Server Health Monitor aims to provide the user with useful information in an easily
 readable and understandable form.
 A few features the health monitor has are:
+
 ● Real-time data monitoring using WebSockets.
 ● Automated SSH into the user's remote server.
 ● Predictive analysis using Time Series prediction that predicts data after a
 specific time frame.
 ● Graphical representation of data for easy interpretation of data.
+
 These features are all independent for each remote server.
 
 Technology Stack used:
